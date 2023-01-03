@@ -56,6 +56,5 @@ def calculate_score(list_of_letters):
 
 
 if __name__ == "__main__":
-    print(get_input("input/day_03.txt"))
-    print(compare_compartments(get_input("input/day_03.txt")))
+    # Part 1
     print(calculate_score(compare_compartments(get_input("input/day_03.txt"))))
